@@ -7,6 +7,7 @@ let userID;
 //Function Tambah User
 exports.addUser = async (req, res) => {
   const schema = {
+    id_user: 'number',
     username: 'string',
     email: 'string',
     password: 'string',
